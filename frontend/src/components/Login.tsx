@@ -19,7 +19,7 @@ const Login = () => {
       grossCoins: 2100,
       netCoins: 1100,
     };
-    fetch("http://localhost:5000/api/user", {
+    fetch("https://denaurlen-app.onrender.com/api/user", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

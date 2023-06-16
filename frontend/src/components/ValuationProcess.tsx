@@ -57,7 +57,7 @@ const ValuationProcess = () => {
     setTimer(true);
     setInterval(updateTimer, 1000);
     let idd = JSON.parse(localStorage.getItem("user")!);
-    fetch("http://localhost:5000/api/user/" + idd._id, {
+    fetch("https://denaurlen-app.onrender.com/api/user/" + idd._id, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
