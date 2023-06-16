@@ -1,0 +1,25 @@
+{
+  "name": "denaurlen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-server":"cd server && npm install",
+    "start-server":"cd server && npm start",
+    "install-client":"cd client && npm install",
+    "build-client":"cd client && npm run build",
+    "start-client":"cd client && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Venu40/denaurlen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Venu40/denaurlen/issues"
+  },
+  "homepage": "https://github.com/Venu40/denaurlen#readme"
+}
